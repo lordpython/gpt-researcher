@@ -33,3 +33,5 @@ loguru
 # uncomment for testing
 # pytest
 # pytest-asyncio
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
