@@ -5,3 +5,4 @@ langgraph-cli
 loguru
 python-dotenv
 weasyprint
+pillow>=12.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
