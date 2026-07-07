@@ -53,7 +53,7 @@ colorama>=0.4.6
 
 # Output Formats
 md2pdf>=1.0.1
-mistune>=3.0.2
+mistune>=3.3.0
 htmldocx>=0.0.6
 
 # MCP Support (optional)
@@ -67,3 +67,5 @@ json-repair>=0.29.8
 json5>=0.9.25
 markdown>=3.5.1
 
+pillow>=12.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
